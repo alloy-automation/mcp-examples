@@ -1,0 +1,24 @@
+{
+  "name": "alloy-mcp-examples",
+  "version": "1.0.0",
+  "description": "Comprehensive examples for Alloy MCP integration",
+  "private": true,
+  "scripts": {
+    "example:basic": "cd examples/basic-typescript && pnpm start",
+    "example:workflow": "cd examples/workflow-automation && pnpm start",
+    "example:chat": "cd examples/nextjs-chat && pnpm dev",
+    "test": "pnpm run test:all",
+    "test:all": "pnpm -r test",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.14.0"
+}
