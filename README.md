@@ -96,10 +96,11 @@ The project uses these pre-configured values:
 
 ```bash
 # Root .env file (used by all examples)
-ALLOY_API_KEY=<your_api_key_here>
-ALLOY_SERVER_URL=https://mcp.runalloy.com
-MCP_SERVER_URL=<your_mcp_server_url>
-MCP_ACCESS_TOKEN=<your_mcp_access_token>
+# MCP Server Configuration
+NEXT_PUBLIC_ALLOY_API_KEY=<your_api_key_here>
+NEXT_PUBLIC_MCP_SERVER_URL=<your_mcp_server_url>
+NEXT_PUBLIC_MCP_ACCESS_TOKEN=<your_mcp_access_token>
+
 ```
 
 ## 🤝 Contributing
