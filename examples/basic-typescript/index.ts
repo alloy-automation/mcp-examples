@@ -16,9 +16,11 @@ class AlloyMCPClient {
   private requestId: number = 1;
 
   constructor() {
-    this.serverUrl = process.env.MCP_SERVER_URL || "";
+    this.serverUrl = process.env.NEXT_PUBLIC_MCP_SERVER_URL || "";
     if (!this.serverUrl) {
-      throw new Error("MCP_SERVER_URL environment variable is required");
+      throw new Error(
+        "NEXT_PUBLIC_MCP_SERVER_URL environment variable is required"
+      );
     }
   }
 
