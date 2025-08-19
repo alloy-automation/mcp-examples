@@ -32,8 +32,9 @@ npm install
 Ensure the root `.env` file contains:
 
 ```env
-MCP_SERVER_URL=https://mcp.runalloy.com/mcp/your-server-id/your-access-token
-MCP_ACCESS_TOKEN=your_access_token
+NEXT_PUBLIC_ALLOY_API_KEY=<your_api_key_here>
+NEXT_PUBLIC_MCP_SERVER_URL=<your_mcp_server_url>
+NEXT_PUBLIC_MCP_ACCESS_TOKEN=<your_mcp_access_token>
 ```
 
 3. Run the example:
@@ -255,13 +256,6 @@ try {
   "id": 123
 }
 ```
-
-## Environment Variables
-
-Required environment variables:
-
-- `MCP_SERVER_URL` - Full MCP server URL with embedded authentication token
-- `MCP_ACCESS_TOKEN` - Access token (optional, usually embedded in URL)
 
 ## Example Output
 
